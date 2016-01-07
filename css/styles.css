@@ -3,26 +3,43 @@ h1 {
   font-size: 4em;
 }
 
+h3 {
+  text-align: center;
+}
+
 body {
   padding-top: 100px;
 }
 
-.container {
-  background: linear-gradient(to bottom, white, green)
-}
-.navbar {
-  padding-bottom: 50px;
+.gradient {
+  background: linear-gradient(to bottom, #FFF, #d6f5d6);
+  font-family: serif;
+  padding-bottom: 30px;
 }
 
-footer {
-  background: linear-gradient(to bottom, white, grey);
+.navbar {
+  padding-bottom: 15px;
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 .glyphicon {
   font-size: 3em;
   display: block;
+  text-align: center;
+  color:  #666666;
 }
 
 .jumbotron {
   box-shadow: 0 15px 15px 0 grey;
+}
+
+.row {
+  font-family: serif;
+}
+
+footer {
+  width: 75%;
+  padding: 100px;
+  color: grey;
 }
