@@ -7,6 +7,22 @@ body {
   padding-top: 100px;
 }
 
+.container {
+  background: linear-gradient(to bottom, white, green)
+}
 .navbar {
   padding-bottom: 50px;
+}
+
+footer {
+  background: linear-gradient(to bottom, white, grey);
+}
+
+.glyphicon {
+  font-size: 3em;
+  display: block;
+}
+
+.jumbotron {
+  box-shadow: 0 15px 15px 0 grey;
 }
